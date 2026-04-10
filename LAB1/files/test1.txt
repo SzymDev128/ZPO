@@ -1,0 +1,3 @@
+Java jest super. Java jest szybka. Programowanie w Java to czysta przyjemność.
+Współbieżność w Java pozwala na szybkie przetwarzanie danych.
+Java, Java i jeszcze raz Java!

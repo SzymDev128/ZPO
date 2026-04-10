@@ -1,0 +1,3 @@
+Ala ma kota, a kot ma Alę. Kot jest czarny i bardzo duży!!!
+123 to nie słowo, ale program powinien je obsłużyć zgodnie z filtrem.
+Czy kot widzi psa? Tak, kot widzi psa.

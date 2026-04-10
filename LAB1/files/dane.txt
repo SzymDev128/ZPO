@@ -1,0 +1,4 @@
+Producent i Konsument to klasyczny wzór projektowy.
+W tym zadaniu używamy BlockingQueue do komunikacji między wątkami.
+Strumienie w języku Java ułatwiają statystykę wyrazów.
+Programowanie funkcyjne jest nowoczesne i zwięzłe.
