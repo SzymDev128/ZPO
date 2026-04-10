@@ -55,7 +55,7 @@ public class MainFrame {
         // PRODUCENT
         Runnable producent = () -> {
             try {
-                // Przeszukiwanie drzewa plików (punkt 1.F instrukcji)
+                // Przeszukiwanie drzewa plików
                 Files.walkFileTree(Paths.get("files"), new SimpleFileVisitor<Path>() {
                     @Override
                     public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {

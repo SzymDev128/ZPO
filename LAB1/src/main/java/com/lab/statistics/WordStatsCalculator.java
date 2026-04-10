@@ -10,7 +10,6 @@ import java.util.stream.Collectors;
 
 public class WordStatsCalculator {
     /**
-     * Metoda realizująca punkt 2 zadania za pomocą strumieni.
      * Zlicza wyrazy, filtruje je i sortuje malejąco.
      */
     public static Map<String, Long> getLinkedCountedWords(Path path, int wordsLimit) {
@@ -29,7 +28,7 @@ public class WordStatsCalculator {
                     .entrySet().stream()
                     // 6. Sortowanie malejące po liczbie wystąpień
                     .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
-                    // 7. Ograniczenie do wordsLimit (np. 10 najczęstszych)
+                    // 7. Ograniczenie do wordsLimit
                     .limit(wordsLimit)
                     // 8. Zbiór do LinkedHashMap (zachowanie kolejności sortowania)
                     .collect(Collectors.toMap(
