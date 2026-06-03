@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.project.controller.ProjectController"
+            prefWidth="900" prefHeight="600">
+
+    <top>
+        <VBox spacing="5">
+            <padding><Insets top="8" right="8" bottom="4" left="8"/></padding>
+
+            <!-- Pasek wyszukiwania + rozmiar strony + dodaj -->
+            <HBox spacing="8" alignment="CENTER_LEFT">
+                <TextField fx:id="txtSzukaj" prefWidth="250" promptText="Szukaj..." />
+                <Button text="Szukaj" onAction="#onActionBtnSzukaj" />
+                <Region HBox.hgrow="ALWAYS"/>
+                <Label text="Rozmiar strony:" />
+                <ChoiceBox fx:id="cbPageSizes" prefWidth="70" />
+                <Button text="Dodaj" onAction="#onActionBtnDodaj" />
+            </HBox>
+
+            <!-- Nawigacja stron -->
+            <GridPane hgap="8" vgap="4">
+                <padding><Insets top="2" bottom="2"/></padding>
+                <HBox spacing="4" GridPane.columnIndex="0" GridPane.rowIndex="0">
+                    <Button fx:id="btnPierwsza" text="&#x2759;&#x25C4;" onAction="#onActionBtnPierwsza" />
+                    <Button fx:id="btnWstecz"   text="&#x25C4;"         onAction="#onActionBtnWstecz" />
+                </HBox>
+                <Label fx:id="lblStrona" text="strona 1"
+                       GridPane.columnIndex="1" GridPane.rowIndex="0"
+                       GridPane.halignment="CENTER" minWidth="80" alignment="CENTER"/>
+                <HBox spacing="4" GridPane.columnIndex="2" GridPane.rowIndex="0" alignment="CENTER_RIGHT">
+                    <Button fx:id="btnDalej"    text="&#x25BA;"         onAction="#onActionBtnDalej" />
+                    <Button fx:id="btnOstatnia" text="&#x25BA;&#x2759;" onAction="#onActionBtnOstatnia" />
+                </HBox>
+                <columnConstraints>
+                    <ColumnConstraints hgrow="ALWAYS"/>
+                    <ColumnConstraints hgrow="NEVER" minWidth="100"/>
+                    <ColumnConstraints hgrow="ALWAYS"/>
+                </columnConstraints>
+            </GridPane>
+        </VBox>
+    </top>
+
+    <center>
+        <TableView fx:id="tblProjekt" VBox.vgrow="ALWAYS">
+            <columns>
+                <TableColumn fx:id="colId"                 text="Id"               prefWidth="50"/>
+                <TableColumn fx:id="colNazwa"              text="Nazwa"            prefWidth="160"/>
+                <TableColumn fx:id="colOpis"               text="Opis"             prefWidth="200"/>
+                <TableColumn fx:id="colDataCzasUtworzenia" text="Data utworzenia"  prefWidth="160"/>
+                <TableColumn fx:id="colDataOddania"        text="Data oddania"     prefWidth="120"/>
+            </columns>
+            <placeholder><Label text="Brak danych"/></placeholder>
+        </TableView>
+    </center>
+</BorderPane>

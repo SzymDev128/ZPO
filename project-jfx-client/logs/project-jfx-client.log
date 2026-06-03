@@ -1,0 +1,15 @@
+2026-06-03 14:00:27.836 [main] INFO  c.project.datasource.DbInitializer.init(60) - QUERY 1 wykonane pomyślnie
+2026-06-03 14:00:27.840 [main] INFO  c.project.datasource.DbInitializer.init(60) - QUERY 2 wykonane pomyślnie
+2026-06-03 14:00:27.840 [main] INFO  c.project.datasource.DbInitializer.init(63) - Schemat bazy danych zainicjalizowany.
+2026-06-03 14:04:58.677 [main] INFO  c.project.datasource.DbInitializer.init(60) - QUERY 1 wykonane pomyślnie
+2026-06-03 14:04:58.680 [main] INFO  c.project.datasource.DbInitializer.init(60) - QUERY 2 wykonane pomyślnie
+2026-06-03 14:04:58.680 [main] INFO  c.project.datasource.DbInitializer.init(63) - Schemat bazy danych zainicjalizowany.
+2026-06-03 14:09:02.223 [main] INFO  c.project.datasource.DbInitializer.init(60) - QUERY 1 wykonane pomyślnie
+2026-06-03 14:09:02.228 [main] INFO  c.project.datasource.DbInitializer.init(60) - QUERY 2 wykonane pomyślnie
+2026-06-03 14:09:02.228 [main] INFO  c.project.datasource.DbInitializer.init(63) - Schemat bazy danych zainicjalizowany.
+2026-06-03 18:28:43.281 [main] INFO  c.project.datasource.DbInitializer.init(60) - QUERY 1 wykonane pomyślnie
+2026-06-03 18:28:43.284 [main] INFO  c.project.datasource.DbInitializer.init(60) - QUERY 2 wykonane pomyślnie
+2026-06-03 18:28:43.285 [main] INFO  c.project.datasource.DbInitializer.init(63) - Schemat bazy danych zainicjalizowany.
+2026-06-03 18:33:07.434 [main] INFO  c.project.datasource.DbInitializer.init(60) - QUERY 1 wykonane pomyślnie
+2026-06-03 18:33:07.438 [main] INFO  c.project.datasource.DbInitializer.init(60) - QUERY 2 wykonane pomyślnie
+2026-06-03 18:33:07.438 [main] INFO  c.project.datasource.DbInitializer.init(63) - Schemat bazy danych zainicjalizowany.
