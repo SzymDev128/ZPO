@@ -1,0 +1,21 @@
+2026-06-03 21:05:18.516 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(54) - Starting ProjectRestApiApplication using Java 25.0.1 with PID 11544 (C:\Users\Admin\Documents\Claude\Projects\Zaawansowane Programowanie Obiektowe\project-rest-api\build\classes\java\main started by Admin in C:\Users\Admin\Documents\Claude\Projects\Zaawansowane Programowanie Obiektowe\project-rest-api)
+2026-06-03 21:05:18.517 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2026-06-03 21:05:23.825 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(60) - Started ProjectRestApiApplication in 5.798 seconds (process running for 6.578)
+2026-06-03 21:21:51.260 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(54) - Starting ProjectRestApiApplication using Java 25.0.1 with PID 11544 (C:\Users\Admin\Documents\Claude\Projects\Zaawansowane Programowanie Obiektowe\project-rest-api\build\classes\java\main started by Admin in C:\Users\Admin\Documents\Claude\Projects\Zaawansowane Programowanie Obiektowe\project-rest-api)
+2026-06-03 21:21:51.260 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2026-06-03 21:21:52.596 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(60) - Started ProjectRestApiApplication in 1.375 seconds (process running for 995.349)
+2026-06-03 21:24:39.136 [main] INFO  c.p.c.ProjektRestControllerIT.logStarting(54) - Starting ProjektRestControllerIT using Java 25.0.1 with PID 13408 (started by Admin in C:\Users\Admin\Documents\Claude\Projects\Zaawansowane Programowanie Obiektowe\project-rest-api)
+2026-06-03 21:24:39.137 [main] INFO  c.p.c.ProjektRestControllerIT.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2026-06-03 21:24:41.238 [main] INFO  c.p.c.ProjektRestControllerIT.logStarted(60) - Started ProjektRestControllerIT in 2.612 seconds (process running for 4.005)
+2026-06-03 21:24:41.290 [main] INFO  c.p.c.ProjektRestControllerIT.before(169) - -- METODA -> createProjekt_whenEmptyName_returnsBadRequest
+2026-06-03 21:24:41.664 [main] INFO  c.p.c.ProjektRestControllerIT.after(174) - <- KONIEC -- createProjekt_whenEmptyName_returnsBadRequest
+2026-06-03 21:24:41.692 [main] INFO  c.p.c.ProjektRestControllerIT.before(169) - -- METODA -> createProjekt_whenValidData_returnsCreatedWithLocation
+2026-06-03 21:24:41.743 [main] INFO  c.p.c.ProjektRestControllerIT.after(174) - <- KONIEC -- createProjekt_whenValidData_returnsCreatedWithLocation
+2026-06-03 21:24:41.759 [main] INFO  c.p.c.ProjektRestControllerIT.before(169) - -- METODA -> getProjekty_whenAvailable_returnsPagedContent
+2026-06-03 21:24:41.855 [main] INFO  c.p.c.ProjektRestControllerIT.after(174) - <- KONIEC -- getProjekty_whenAvailable_returnsPagedContent
+2026-06-03 21:24:41.870 [main] INFO  c.p.c.ProjektRestControllerIT.before(169) - -- METODA -> getProjekt_whenValidId_returnsProjekt
+2026-06-03 21:24:41.883 [main] INFO  c.p.c.ProjektRestControllerIT.after(174) - <- KONIEC -- getProjekt_whenValidId_returnsProjekt
+2026-06-03 21:24:41.897 [main] INFO  c.p.c.ProjektRestControllerIT.before(169) - -- METODA -> getProjekt_whenInvalidId_returnsNotFound
+2026-06-03 21:24:41.903 [main] INFO  c.p.c.ProjektRestControllerIT.after(174) - <- KONIEC -- getProjekt_whenInvalidId_returnsNotFound
+2026-06-03 21:24:41.919 [main] INFO  c.p.c.ProjektRestControllerIT.before(169) - -- METODA -> getProjekty_withPagingParams_passesParamsToService
+2026-06-03 21:24:41.935 [main] INFO  c.p.c.ProjektRestControllerIT.after(174) - <- KONIEC -- getProjekty_withPagingParams_passesParamsToService
