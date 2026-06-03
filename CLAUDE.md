@@ -1,1 +1,0 @@
-Używam Intelij, mam Java 25.
