@@ -1,0 +1,28 @@
+.root {
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid darkGray;
+    border-collapse: collapse;
+}
+
+th {
+    background: lightGray;
+    color: black;
+    border: 1px solid darkGray;
+    padding: 10px;
+    font-weight: normal;
+    font-size: 1.1em;
+}
+
+td {
+    border: 1px solid darkGray;
+    padding: 5px 10px;
+}
+
+.search-block {
+    width: 80%;
+}

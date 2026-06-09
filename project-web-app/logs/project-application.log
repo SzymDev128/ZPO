@@ -1,0 +1,31 @@
+2026-06-09 14:07:39.432 [restartedMain] INFO  c.project.ProjectWebAppApplication.logStarting(53) - Starting ProjectWebAppApplication using Java 21.0.11 with PID 2676 (C:\Users\Admin\Documents\Claude\Projects\Zaawansowane Programowanie Obiektowe\project-web-app\build\classes\java\main started by Admin in C:\Users\Admin\Documents\Claude\Projects\Zaawansowane Programowanie Obiektowe\project-web-app)
+2026-06-09 14:07:39.433 [restartedMain] INFO  c.project.ProjectWebAppApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 14:07:41.372 [restartedMain] INFO  c.project.ProjectWebAppApplication.logStarted(59) - Started ProjectWebAppApplication in 2.562 seconds (process running for 3.39)
+2026-06-09 14:07:59.531 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(113) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2026-06-09 14:11:00.836 [http-nio-8081-exec-4] INFO  c.project.service.ProjektServiceImpl.getProjekty(113) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2026-06-09 14:11:03.108 [http-nio-8081-exec-5] INFO  c.project.service.ProjektServiceImpl.getProjekty(113) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2026-06-09 14:11:34.462 [http-nio-8081-exec-6] INFO  c.project.service.ProjektServiceImpl.getProjekty(113) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2026-06-09 14:12:22.956 [http-nio-8081-exec-10] INFO  c.project.service.ProjektServiceImpl.setProjekt(72) - REQUEST -> POST /api/projekty
+2026-06-09 14:12:23.180 [http-nio-8081-exec-10] INFO  c.project.service.ProjektServiceImpl.setProjekt(84) - REQUEST (location) -> GET http://localhost:8080/api/projekty/52
+2026-06-09 14:12:23.269 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(113) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2026-06-09 14:12:26.084 [http-nio-8081-exec-3] INFO  c.project.service.StudentServiceImpl.getStudenci(113) - REQUEST -> GET /api/studenci?page=0&size=20&sort=
+2026-06-09 14:12:27.014 [http-nio-8081-exec-5] INFO  c.project.service.ProjektServiceImpl.getProjekty(113) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2026-06-09 14:13:52.411 [restartedMain] INFO  c.project.ProjectWebAppApplication.logStarting(53) - Starting ProjectWebAppApplication using Java 21.0.11 with PID 2676 (C:\Users\Admin\Documents\Claude\Projects\Zaawansowane Programowanie Obiektowe\project-web-app\build\classes\java\main started by Admin in C:\Users\Admin\Documents\Claude\Projects\Zaawansowane Programowanie Obiektowe\project-web-app)
+2026-06-09 14:13:52.411 [restartedMain] INFO  c.project.ProjectWebAppApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 14:13:52.821 [restartedMain] INFO  c.project.ProjectWebAppApplication.logStarted(59) - Started ProjectWebAppApplication in 0.453 seconds (process running for 374.839)
+2026-06-09 14:13:55.347 [restartedMain] INFO  c.project.ProjectWebAppApplication.logStarting(53) - Starting ProjectWebAppApplication using Java 21.0.11 with PID 2676 (C:\Users\Admin\Documents\Claude\Projects\Zaawansowane Programowanie Obiektowe\project-web-app\build\classes\java\main started by Admin in C:\Users\Admin\Documents\Claude\Projects\Zaawansowane Programowanie Obiektowe\project-web-app)
+2026-06-09 14:13:55.347 [restartedMain] INFO  c.project.ProjectWebAppApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 14:13:55.649 [restartedMain] INFO  c.project.ProjectWebAppApplication.logStarted(59) - Started ProjectWebAppApplication in 0.332 seconds (process running for 377.667)
+2026-06-09 14:14:54.607 [restartedMain] INFO  c.project.ProjectWebAppApplication.logStarting(53) - Starting ProjectWebAppApplication using Java 21.0.11 with PID 2676 (C:\Users\Admin\Documents\Claude\Projects\Zaawansowane Programowanie Obiektowe\project-web-app\build\classes\java\main started by Admin in C:\Users\Admin\Documents\Claude\Projects\Zaawansowane Programowanie Obiektowe\project-web-app)
+2026-06-09 14:14:54.607 [restartedMain] INFO  c.project.ProjectWebAppApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 14:14:55.007 [restartedMain] INFO  c.project.ProjectWebAppApplication.logStarted(59) - Started ProjectWebAppApplication in 0.447 seconds (process running for 437.025)
+2026-06-09 14:15:09.420 [http-nio-8081-exec-2] INFO  c.project.service.StudentServiceImpl.getStudenci(113) - REQUEST -> GET /api/studenci?page=0&size=20&sort=
+2026-06-09 14:15:11.698 [http-nio-8081-exec-4] INFO  c.project.service.ProjektServiceImpl.getProjekty(113) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2026-06-09 14:15:15.264 [http-nio-8081-exec-6] INFO  c.project.service.ProjektServiceImpl.getProjekt(42) - REQUEST -> GET /api/projekty/2
+2026-06-09 14:15:17.415 [http-nio-8081-exec-9] INFO  c.project.service.ProjektServiceImpl.getProjekty(113) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2026-06-09 14:15:21.066 [http-nio-8081-exec-4] INFO  c.project.service.ProjektServiceImpl.getProjekty(113) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2026-06-09 14:15:21.891 [http-nio-8081-exec-6] INFO  c.project.service.StudentServiceImpl.getStudenci(113) - REQUEST -> GET /api/studenci?page=0&size=20&sort=
+2026-06-09 14:15:36.836 [http-nio-8081-exec-2] INFO  c.project.service.StudentServiceImpl.setStudent(72) - REQUEST -> POST /api/studenci
+2026-06-09 14:15:36.928 [http-nio-8081-exec-2] INFO  c.project.service.StudentServiceImpl.setStudent(84) - REQUEST (location) -> GET http://localhost:8080/api/studenci/1
+2026-06-09 14:15:37.010 [http-nio-8081-exec-3] INFO  c.project.service.StudentServiceImpl.getStudenci(113) - REQUEST -> GET /api/studenci?page=0&size=20&sort=
+2026-06-09 14:15:39.054 [http-nio-8081-exec-5] INFO  c.project.service.ProjektServiceImpl.getProjekty(113) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
